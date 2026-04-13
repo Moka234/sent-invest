@@ -1,5 +1,7 @@
 pyspark==3.5.3
-pandas==2.2.3
 sqlalchemy==2.0.35
 aiomysql==0.2.0
 pydantic-settings==2.5.2
+tqdm>=4.66,<5
+transformers>=4.44,<5
+torch>=2.4,<3

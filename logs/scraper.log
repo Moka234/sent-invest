@@ -1312,3 +1312,39 @@
 2026-04-13 13:21:47 | INFO | [POLL] loop=43 round_elapsed=0.63s sleep=585.3s
 2026-04-13 13:31:33 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.69s attempt=1
 2026-04-13 13:31:33 | INFO | [POLL] loop=44 round_elapsed=0.69s sleep=436.8s
+2026-04-13 13:38:50 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.41s attempt=1
+2026-04-13 13:38:50 | INFO | [POLL] loop=45 round_elapsed=0.41s sleep=446.0s
+2026-04-13 13:46:16 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.33s attempt=1
+2026-04-13 13:46:16 | INFO | [POLL] loop=46 round_elapsed=0.33s sleep=533.0s
+2026-04-13 13:55:10 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.56s attempt=1
+2026-04-13 13:55:10 | INFO | [POLL] loop=47 round_elapsed=0.56s sleep=554.1s
+2026-04-13 14:04:24 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.37s attempt=1
+2026-04-13 14:04:24 | INFO | [POLL] loop=48 round_elapsed=0.37s sleep=359.2s
+2026-04-13 14:10:24 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.52s attempt=1
+2026-04-13 14:10:24 | INFO | [POLL] loop=49 round_elapsed=0.52s sleep=308.1s
+2026-04-13 14:15:32 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.32s attempt=1
+2026-04-13 14:15:32 | ERROR | [FATAL-GUARD] poll loop error=(pymysql.err.IntegrityError) (1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`invest`.`user_sentiment`, CONSTRAINT `fk_user_sentiment_raw_data_id` FOREIGN KEY (`raw_data_id`) REFERENCES `raw_data` (`id`))')
+[SQL: DELETE FROM raw_data WHERE raw_data.create_time < %s]
+[parameters: (datetime.datetime(2026, 3, 29, 14, 15, 32, 951154),)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), sleep 300s then retry
+2026-04-13 14:20:33 | INFO | [OK] page=1 parsed=81 upsert=81 elapsed=0.34s attempt=1
+2026-04-13 14:20:33 | INFO | [POLL] loop=51 round_elapsed=0.35s sleep=301.7s
+2026-04-13 14:25:35 | INFO | [OK] page=1 parsed=81 upsert=81 elapsed=0.55s attempt=1
+2026-04-13 14:25:35 | INFO | [POLL] loop=52 round_elapsed=0.55s sleep=443.4s
+2026-04-13 14:32:59 | INFO | [OK] page=1 parsed=81 upsert=81 elapsed=0.66s attempt=1
+2026-04-13 14:32:59 | INFO | [POLL] loop=53 round_elapsed=0.66s sleep=560.3s
+2026-04-13 15:53:54 | INFO | [OK] page=1 parsed=81 upsert=81 elapsed=0.44s attempt=1
+2026-04-13 15:53:54 | INFO | [POLL] loop=54 round_elapsed=0.44s sleep=508.5s
+2026-04-13 16:02:23 | INFO | [OK] page=1 parsed=81 upsert=81 elapsed=0.47s attempt=1
+2026-04-13 16:02:23 | INFO | [POLL] loop=55 round_elapsed=0.47s sleep=588.4s
+2026-04-13 16:12:12 | INFO | [OK] page=1 parsed=81 upsert=81 elapsed=0.46s attempt=1
+2026-04-13 16:12:12 | INFO | [POLL] loop=56 round_elapsed=0.46s sleep=393.5s
+2026-04-13 16:18:46 | INFO | [OK] page=1 parsed=81 upsert=81 elapsed=0.45s attempt=1
+2026-04-13 16:18:46 | INFO | [POLL] loop=57 round_elapsed=0.45s sleep=547.5s
+2026-04-13 16:27:54 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.39s attempt=1
+2026-04-13 16:27:54 | INFO | [POLL] loop=58 round_elapsed=0.39s sleep=390.5s
+2026-04-13 16:34:25 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.44s attempt=1
+2026-04-13 16:34:25 | INFO | [POLL] loop=59 round_elapsed=0.44s sleep=566.8s
+2026-04-13 16:43:52 | INFO | [OK] page=1 parsed=80 upsert=80 elapsed=0.35s attempt=1
+2026-04-13 16:43:52 | INFO | [METRIC][POLL] ok_pages=60 failed_pages=0 retries=0 http_403=0 http_5xx=0 upsert_rows=4807
+2026-04-13 16:43:52 | INFO | [POLL] loop=60 round_elapsed=0.35s sleep=567.0s
