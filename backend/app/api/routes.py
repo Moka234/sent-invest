@@ -257,7 +257,7 @@ async def get_user_recommendation(
             score = (
                 (annual_yield * 0.4)
                 + (sharpe_ratio * 10 * 0.3)
-                - (max_drawdown * user_volatility * 5)
+                - (max_drawdown * user_volatility * 1.2)
             )
             ranked_candidates.append((score, product))
 
